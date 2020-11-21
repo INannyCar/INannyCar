@@ -2,42 +2,46 @@
 #include <SoftwareSerial.h>
 #include<Servo.h>
 
+// pin number
+int RX = 2;
+int TX = 3;
+int left_motor = 8;
+int right_motor = 9;
+
 // instance value
-SoftwareSerial mySerial(2, 3); // RX, TX
-Servo servo1;
-Servo servo2;
+SoftwareSerial mySerial(RX, TX); // RX, TX
+Servo left_servo;
+Servo right_servo;
 
 // constant number
-const int motor_delay = 300;
+const int motor_delay_break_on = 230;
+const int motor_delay_break_off = 200;
 
 // varilable value
-int angle = 0; // servo_motor angle
 int incomingByte = 0;
+const int right = 180;
+const int left = 0;
+const int movestop = 90;
 const int bSize = 128; 
 char Buffer[bSize];
 char value;
-char Data[bSize];
 int ByteCount;
 
 void change_state(String (&message)[2]) {
   if(message[0].equals("BREAK")){
     if(message[1].equals("ON")){
-        angle = 180;
-        servo1.write(angle);
-        servo2.write(angle);
-        delay(300);
-        angle = 90;
-        servo1.write(angle);
-        servo2.write(angle);
+        left_servo.write(left);
+        right_servo.write(right);
+        delay(motor_delay_break_on);
+        left_servo.write(movestop);
+        right_servo.write(movestop);
     }
     else if(message[1].equals("OFF")){
-        angle = 0;
-        servo1.write(angle);
-        servo2.write(angle);
-        delay(300);
-        angle = 90;
-        servo1.write(angle);
-        servo2.write(angle);
+        left_servo.write(right);
+        right_servo.write(left);
+        delay(motor_delay_break_off);
+        left_servo.write(movestop);
+        right_servo.write(movestop);
     }
   }
 }
@@ -51,9 +55,7 @@ void SerialParser(void) {
     Serial.println(Buffer);
     String message[2];
     spliter(Buffer, ':',message);    
-    change_state(message);
-        
-    memset(Data, 0, bSize);          
+    change_state(message);        
   }
   memset(Buffer, 0, bSize);     
   Serial.flush();
@@ -85,8 +87,8 @@ void spliter(String sData, char cSeparator, String (&message)[2]) {
 
 void setup() {
   
-  servo1.attach(9); 
-  servo2.attach(8);
+  servo1.attach(left_motor); 
+  servo2.attach(right_motor);
   // servo_motor_setup
   Serial.begin(9600);
   mySerial.begin(9600);
@@ -94,5 +96,4 @@ void setup() {
 
 void loop() {
   SerialParser();
-  delay(500); // Loop delay
 }
