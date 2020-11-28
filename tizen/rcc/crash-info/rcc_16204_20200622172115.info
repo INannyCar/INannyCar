@@ -1,0 +1,148 @@
+Executable File Path: /opt/usr/globalapps/org.tizen.rcc/bin/rcc
+Signal: 6
+      (SIGABRT)
+
+Register Information
+r0   = 0x00000000, r1   = 0x7eb6d760
+r2   = 0x00000000, r3   = 0x00000008
+r4   = 0x00000006, r5   = 0x73f30000
+r6   = 0x76ae1078, r7   = 0x000000af
+r8   = 0x00000001, r9   = 0x00000002
+r10  = 0x00000005, fp   = 0x7eb6daa8
+ip   = 0x00000000, sp   = 0x7eb6d760
+lr   = 0x7eb6d760, pc   = 0x769d4dc4
+cpsr = 0x000f0010
+
+Memory information
+MemTotal:   890652 KB
+MemFree:	   516304 KB
+Buffers:	    24164 KB
+Cached:	    138092 KB
+VmPeak:	     71488 KB
+VmSize:	     71428 KB
+VmLck:	          0 KB
+VmPin:	          0 KB
+VmHWM:	      11076 KB
+VmRSS:	      11076 KB
+VmData:	     17828 KB
+VmStk:	        132 KB
+VmExe:	         84 KB
+VmLib:	      17280 KB
+VmPTE:	         46 KB
+VmSwap:	         0 KB
+
+Threads Information
+Threads: 3
+PID = 16204 TID = 16204
+16204 16209 16210 
+
+Maps Information
+          4cc000           4e1000 r-xp /opt/usr/globalapps/org.tizen.rcc/bin/rcc
+          7d2000           804000 rw-p [heap]
+        73eaa000         73eb4000 r-xp /usr/lib/libnss_files-2.24.so
+        73ec5000         73ed0000 r-xp /usr/lib/libnss_nis-2.24.so
+        73ee1000         73ef3000 r-xp /usr/lib/libnsl-2.24.so
+        73f06000         73f0d000 r-xp /usr/lib/libnss_compat-2.24.so
+        73f35000         73f38000 r-xp /usr/lib/libcap.so.2.24
+        73f4a000         73fa6000 r-xp /usr/lib/libsystemd.so.0.16.0
+        73fb9000         7401a000 r-xp /usr/lib/libbluetooth-api.so.1.0.0
+        7402b000         74030000 r-xp /usr/lib/libsmack.so.1.3.1
+        74041000         7404f000 r-xp /usr/lib/libsensord-shared.so
+        74060000         7408b000 r-xp /usr/lib/libblkid.so.1.1.0
+        7409f000         740d8000 r-xp /usr/lib/libmount.so.1.1.0
+        740ec000         74105000 r-xp /usr/lib/liblzma.so.5.2.4
+        74115000         74162000 r-xp /usr/lib/libcynara-commons.so.0.14.22
+        74175000         7417c000 r-xp /usr/lib/libcynara-client-commons.so.0.14.22
+        7418d000         74190000 r-xp /usr/lib/liboc_logger.so
+        741a1000         741ed000 r-xp /usr/lib/libmbedtls.so
+        74202000         74290000 r-xp /usr/lib/libcapi-network-bluetooth.so.0.5.3
+        742a1000         742ec000 r-xp /usr/lib/libconnectivity_abstraction.so
+        75cfb000         75d0d000 r-xp /usr/lib/libresolv-2.24.so
+        75d21000         75d23000 r-xp /usr/lib/libgmodule-2.0.so.0.5200.2
+        75d34000         75d3f000 r-xp /usr/lib/libbuxton2.so.1.5.5
+        75d4f000         75d56000 r-xp /usr/lib/libminizip.so.1.0.0
+        75d67000         75d82000 r-xp /usr/lib/libpkgmgr_parser.so.0.17.1
+        75d92000         75db2000 r-xp /usr/lib/libsensor-genuine.so.4.0.3
+        75db3000         75db7000 r-xp /usr/lib/libcapi-appfw-app-control-uri.so.0.11.10
+        75dc7000         75eb8000 r-xp /usr/lib/libstdc++.so.6.0.22
+        75ed0000         75ed9000 r-xp /usr/lib/libstorage.so.0.1
+        75ee9000         75eeb000 r-xp /usr/lib/libttrace.so.1.1
+        75efb000         75fd1000 r-xp /usr/lib/libxml2.so.2.9.7
+        75fe7000         75fea000 r-xp /usr/lib/libiniparser.so.0
+        75ffa000         76099000 r-xp /usr/lib/libsqlite3.so.0.8.6
+        760ad000         760b2000 r-xp /usr/lib/libtzplatform-config-2.0.so.2.0.0
+        760c7000         760cc000 r-xp /usr/lib/libxdgmime.so.1.1.0
+        760dd000         760e0000 r-xp /usr/lib/libuuid.so.1.3.0
+        760f0000         760f8000 r-xp /usr/lib/libcynara-client.so.0.14.22
+        76109000         7613c000 r-xp /usr/lib/libocpmapi.so
+        7614d000         761cc000 r-xp /usr/lib/liboctbstack.so
+        761df000         761e4000 r-xp /usr/lib/libffi.so.6.0.2
+        761f4000         76242000 r-xp /usr/lib/libpcre.so.1.2.9
+        76252000         76299000 r-xp /usr/lib/libefl.so.1.22.99
+        762ae000         762c6000 r-xp /usr/lib/libeo.so.1.22.99
+        762d7000         76335000 r-xp /usr/lib/libeina.so.1.22.99
+        76347000         76356000 r-xp /usr/lib/libz.so.1.2.11
+        76368000         764be000 r-xp /usr/lib/libcrypto.so.1.1
+        764e7000         76532000 r-xp /usr/lib/libssl.so.1.1
+        7654a000         76669000 r-xp /usr/lib/libicuuc.so.63.1
+        76687000         7669e000 r-xp /usr/lib/libnghttp2.so.14.17.1
+        766b0000         766ba000 r-xp /usr/lib/libcares.so.2.2.0
+        766cb000         76823000 r-xp /usr/lib/libgio-2.0.so.0.5200.2
+        76837000         7683b000 r-xp /usr/lib/libgdbm.so.3.0.0
+        7684c000         7684f000 r-xp /usr/lib/libdl-2.24.so
+        76860000         7687c000 r-xp /usr/lib/libnetwork.so.0.0.0
+        7688c000         76892000 r-xp /usr/lib/libvconf.so.0.3.1
+        768a3000         768b9000 r-xp /usr/lib/libpthread-2.24.so
+        768cc000         768e9000 r-xp /usr/lib/libpkgmgr-info.so.0.17.1
+        768fa000         76902000 r-xp /usr/lib/libappcore-common.so.1.13.4
+        76912000         76919000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.11.10
+        76929000         76930000 r-xp /usr/lib/libbundle.so.0.3.2
+        76940000         76971000 r-xp /usr/lib/libaul.so.0.18.3
+        76982000         7699a000 r-xp /usr/lib/libgcc_s.so.1
+        769aa000         76acf000 r-xp /usr/lib/libc-2.24.so
+        76ae4000         76b56000 r-xp /usr/lib/libm-2.24.so
+        76b67000         76b6d000 r-xp /usr/lib/librt-2.24.so
+        76b7e000         76b97000 r-xp /usr/lib/libjson-glib-1.0.so.0.400.2
+        76ba9000         76bdd000 r-xp /usr/lib/libiotcon.so.0.3.20
+        76bef000         76c36000 r-xp /usr/lib/libgobject-2.0.so.0.5200.2
+        76c47000         76d3f000 r-xp /usr/lib/libglib-2.0.so.0.5200.2
+        76d50000         76da4000 r-xp /usr/lib/libecore.so.1.22.99
+        76db7000         76dbe000 r-xp /usr/lib/libdlog.so.0.0.0
+        76dd4000         76e25000 r-xp /usr/lib/libcurl.so.4.5.0
+        76e37000         76e4c000 r-xp /usr/lib/libcapi-system-peripheral-io.so.0.1.0
+        76e5d000         76e60000 r-xp /usr/lib/libcapi-system-info.so.0.5.1
+        76e70000         76e82000 r-xp /usr/lib/libcapi-network-connection.so.1.0.113
+        76e92000         76e9e000 r-xp /usr/lib/libcapi-base-common.so.0.4.48
+        76eb0000         76eb3000 r-xp /usr/lib/libcapi-appfw-app-common.so.0.8.3
+        76ec3000         76ec6000 r-xp /usr/lib/libappcore-agent.so.1.2.11
+        76ee8000         76f08000 r-xp /usr/lib/ld-2.24.so
+        7eb4e000         7eb6f000 rw-p [stack]
+End of Maps Information
+
+Callstack Information (PID:16204)
+Call Stack Count: 24
+ 0: gsignal + 0x9c (0x769d4dc4) [/usr/lib/libc-2.24.so] + 0x2adc4
+ 1: abort + 0x12c (0x769d6120) [/usr/lib/libc-2.24.so] + 0x2c120
+ 2: (0x76a0f32c) [/usr/lib/libc-2.24.so] + 0x6532c
+ 3: (0x76a15e18) [/usr/lib/libc-2.24.so] + 0x6be18
+ 4: (0x76a167b4) [/usr/lib/libc-2.24.so] + 0x6c7b4
+ 5: peripheral_gpio_close + 0x26 (0x76e3d677) [/usr/lib/libcapi-system-peripheral-io.so.0.1.0] + 0x6677
+ 6: resource_read_dht11 + 0x7c (0x004da2cd) [/opt/usr/globalapps/org.tizen.rcc/bin/rcc] + 0xe2cd
+ 7: _temperature_timer_cb + 0x1c (0x004d4a15) [/opt/usr/globalapps/org.tizen.rcc/bin/rcc] + 0x8a15
+ 8: (0x76d8d669) [/usr/lib/libecore.so.1.22.99] + 0x3d669
+ 9: (0x762bf991) [/usr/lib/libeo.so.1.22.99] + 0x11991
+10: efl_event_callback_call + 0x4a (0x762bb1df) [/usr/lib/libeo.so.1.22.99] + 0xd1df
+11: (0x76d8e679) [/usr/lib/libecore.so.1.22.99] + 0x3e679
+12: (0x76d8e78b) [/usr/lib/libecore.so.1.22.99] + 0x3e78b
+13: (0x76d68a69) [/usr/lib/libecore.so.1.22.99] + 0x18a69
+14: (0x76d69067) [/usr/lib/libecore.so.1.22.99] + 0x19067
+15: (0x76d6c1c9) [/usr/lib/libecore.so.1.22.99] + 0x1c1c9
+16: efl_loop_begin + 0x40 (0x76d6b759) [/usr/lib/libecore.so.1.22.99] + 0x1b759
+17: ecore_main_loop_begin + 0x4c (0x76d67ff9) [/usr/lib/libecore.so.1.22.99] + 0x17ff9
+18: appcore_base_init + 0x130 (0x768fe985) [/usr/lib/libappcore-common.so.1.13.4] + 0x4985
+19: service_app_main_ext + 0xa6 (0x76ec454f) [/usr/lib/libappcore-agent.so.1.2.11] + 0x154f
+20: service_app_main + 0x2a (0x76ec4663) [/usr/lib/libappcore-agent.so.1.2.11] + 0x1663
+21: main + 0x10c (0x004d4cdd) [/opt/usr/globalapps/org.tizen.rcc/bin/rcc] + 0x8cdd
+22: __libc_start_main + 0x114 (0x769c02bc) [/usr/lib/libc-2.24.so] + 0x162bc
+23: _start + 0x44 (0x004ceebc) [/opt/usr/globalapps/org.tizen.rcc/bin/rcc] + 0x2ebc
+End of Call Stack
