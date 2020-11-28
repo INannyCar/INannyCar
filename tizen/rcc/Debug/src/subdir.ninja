@@ -1,0 +1,43 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+
+ctool = clang.exe
+cflags = -DTIZEN_DEPRECATION -DDEPRECATION_WARNING -D_DEBUG -I"../inc" -O0 -g3 -Wall -c -fmessage-length=0 -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/libxml2" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/appcore-agent" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/appfw" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/base" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/ckm" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/dbus-1.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/device" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/dlog" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/ecore-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/efl-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eina-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eina-1/eina" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eo-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/gio-unix-2.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/glib-2.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/iotcon" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/json-glib-1.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/media" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/minizip" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/network" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/storage" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/system" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/lib/dbus-1.0/include" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/lib/glib-2.0/include" -target arm-tizen-linux-gnueabi -gcc-toolchain "C:\tizen-studio\tools\smart-build-interface/../arm-linux-gnueabi-gcc-6.2/" -ccc-gcc-name arm-linux-gnueabi-g++ -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mtune=cortex-a8 -Wno-gnu  -fPIE --sysroot="C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core" -mthumb -Werror-implicit-function-declaration
+
+build src/connection_manager.o: build_c ../src/connection_manager.c 
+build src/connection_manager.o.ast: build_c_fast_ast ../src/connection_manager.c 
+build $sareportdir/src/connection_manager.o.xml: build_c_fast_sa src/connection_manager.o.ast || externalFnMap.txt
+build src/connection_manager.o.txt: build_c_api ../src/connection_manager.c 
+build $coveragedir/src/connection_manager.o.cov: build_cov ../src/connection_manager.c 
+build src/connectivity.o: build_c ../src/connectivity.c 
+build src/connectivity.o.ast: build_c_fast_ast ../src/connectivity.c 
+build $sareportdir/src/connectivity.o.xml: build_c_fast_sa src/connectivity.o.ast || externalFnMap.txt
+build src/connectivity.o.txt: build_c_api ../src/connectivity.c 
+build $coveragedir/src/connectivity.o.cov: build_cov ../src/connectivity.c 
+build src/controller.o: build_c ../src/controller.c 
+build src/controller.o.ast: build_c_fast_ast ../src/controller.c 
+build $sareportdir/src/controller.o.xml: build_c_fast_sa src/controller.o.ast || externalFnMap.txt
+build src/controller.o.txt: build_c_api ../src/controller.c 
+build $coveragedir/src/controller.o.cov: build_cov ../src/controller.c 
+build src/controller_internal.o: build_c ../src/controller_internal.c 
+build src/controller_internal.o.ast: build_c_fast_ast ../src/controller_internal.c 
+build $sareportdir/src/controller_internal.o.xml: build_c_fast_sa src/controller_internal.o.ast || externalFnMap.txt
+build src/controller_internal.o.txt: build_c_api ../src/controller_internal.c 
+build $coveragedir/src/controller_internal.o.cov: build_cov ../src/controller_internal.c 
+build src/controller_util.o: build_c ../src/controller_util.c 
+build src/controller_util.o.ast: build_c_fast_ast ../src/controller_util.c 
+build $sareportdir/src/controller_util.o.xml: build_c_fast_sa src/controller_util.o.ast || externalFnMap.txt
+build src/controller_util.o.txt: build_c_api ../src/controller_util.c 
+build $coveragedir/src/controller_util.o.cov: build_cov ../src/controller_util.c 
+build src/resource.o: build_c ../src/resource.c 
+build src/resource.o.ast: build_c_fast_ast ../src/resource.c 
+build $sareportdir/src/resource.o.xml: build_c_fast_sa src/resource.o.ast || externalFnMap.txt
+build src/resource.o.txt: build_c_api ../src/resource.c 
+build $coveragedir/src/resource.o.cov: build_cov ../src/resource.c 
+build src/webutil.o: build_c ../src/webutil.c 
+build src/webutil.o.ast: build_c_fast_ast ../src/webutil.c 
+build $sareportdir/src/webutil.o.xml: build_c_fast_sa src/webutil.o.ast || externalFnMap.txt
+build src/webutil.o.txt: build_c_api ../src/webutil.c 
+build $coveragedir/src/webutil.o.cov: build_cov ../src/webutil.c 

@@ -1,0 +1,113 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+
+ctool = clang.exe
+cflags = -DTIZEN_DEPRECATION -DDEPRECATION_WARNING -D_DEBUG -I"../inc" -O0 -g3 -Wall -c -fmessage-length=0 -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/libxml2" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/appcore-agent" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/appfw" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/base" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/ckm" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/dbus-1.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/device" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/dlog" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/ecore-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/efl-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eina-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eina-1/eina" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/eo-1" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/gio-unix-2.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/glib-2.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/iotcon" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/json-glib-1.0" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/media" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/minizip" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/network" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/storage" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/include/system" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/lib/dbus-1.0/include" -I"C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core/usr/lib/glib-2.0/include" -target arm-tizen-linux-gnueabi -gcc-toolchain "C:\tizen-studio\tools\smart-build-interface/../arm-linux-gnueabi-gcc-6.2/" -ccc-gcc-name arm-linux-gnueabi-g++ -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mtune=cortex-a8 -Wno-gnu  -fPIE --sysroot="C:/tizen-studio/tools/smart-build-interface/../../platforms/tizen-4.0/iot-headless/rootstraps/iot-headless-4.0-device.core" -mthumb -Werror-implicit-function-declaration
+
+build src/resource/resource_PCA9685.o: build_c ../src/resource/resource_PCA9685.c 
+build src/resource/resource_PCA9685.o.ast: build_c_fast_ast ../src/resource/resource_PCA9685.c 
+build $sareportdir/src/resource/resource_PCA9685.o.xml: build_c_fast_sa src/resource/resource_PCA9685.o.ast || externalFnMap.txt
+build src/resource/resource_PCA9685.o.txt: build_c_api ../src/resource/resource_PCA9685.c 
+build $coveragedir/src/resource/resource_PCA9685.o.cov: build_cov ../src/resource/resource_PCA9685.c 
+build src/resource/resource_adc_mcp3008.o: build_c ../src/resource/resource_adc_mcp3008.c 
+build src/resource/resource_adc_mcp3008.o.ast: build_c_fast_ast ../src/resource/resource_adc_mcp3008.c 
+build $sareportdir/src/resource/resource_adc_mcp3008.o.xml: build_c_fast_sa src/resource/resource_adc_mcp3008.o.ast || externalFnMap.txt
+build src/resource/resource_adc_mcp3008.o.txt: build_c_api ../src/resource/resource_adc_mcp3008.c 
+build $coveragedir/src/resource/resource_adc_mcp3008.o.cov: build_cov ../src/resource/resource_adc_mcp3008.c 
+build src/resource/resource_flame_sensor.o: build_c ../src/resource/resource_flame_sensor.c 
+build src/resource/resource_flame_sensor.o.ast: build_c_fast_ast ../src/resource/resource_flame_sensor.c 
+build $sareportdir/src/resource/resource_flame_sensor.o.xml: build_c_fast_sa src/resource/resource_flame_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_flame_sensor.o.txt: build_c_api ../src/resource/resource_flame_sensor.c 
+build $coveragedir/src/resource/resource_flame_sensor.o.cov: build_cov ../src/resource/resource_flame_sensor.c 
+build src/resource/resource_gas_detection_sensor.o: build_c ../src/resource/resource_gas_detection_sensor.c 
+build src/resource/resource_gas_detection_sensor.o.ast: build_c_fast_ast ../src/resource/resource_gas_detection_sensor.c 
+build $sareportdir/src/resource/resource_gas_detection_sensor.o.xml: build_c_fast_sa src/resource/resource_gas_detection_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_gas_detection_sensor.o.txt: build_c_api ../src/resource/resource_gas_detection_sensor.c 
+build $coveragedir/src/resource/resource_gas_detection_sensor.o.cov: build_cov ../src/resource/resource_gas_detection_sensor.c 
+build src/resource/resource_illuminance_sensor.o: build_c ../src/resource/resource_illuminance_sensor.c 
+build src/resource/resource_illuminance_sensor.o.ast: build_c_fast_ast ../src/resource/resource_illuminance_sensor.c 
+build $sareportdir/src/resource/resource_illuminance_sensor.o.xml: build_c_fast_sa src/resource/resource_illuminance_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_illuminance_sensor.o.txt: build_c_api ../src/resource/resource_illuminance_sensor.c 
+build $coveragedir/src/resource/resource_illuminance_sensor.o.cov: build_cov ../src/resource/resource_illuminance_sensor.c 
+build src/resource/resource_infrared_motion_sensor.o: build_c ../src/resource/resource_infrared_motion_sensor.c 
+build src/resource/resource_infrared_motion_sensor.o.ast: build_c_fast_ast ../src/resource/resource_infrared_motion_sensor.c 
+build $sareportdir/src/resource/resource_infrared_motion_sensor.o.xml: build_c_fast_sa src/resource/resource_infrared_motion_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_infrared_motion_sensor.o.txt: build_c_api ../src/resource/resource_infrared_motion_sensor.c 
+build $coveragedir/src/resource/resource_infrared_motion_sensor.o.cov: build_cov ../src/resource/resource_infrared_motion_sensor.c 
+build src/resource/resource_infrared_obstacle_avoidance_sensor.o: build_c ../src/resource/resource_infrared_obstacle_avoidance_sensor.c 
+build src/resource/resource_infrared_obstacle_avoidance_sensor.o.ast: build_c_fast_ast ../src/resource/resource_infrared_obstacle_avoidance_sensor.c 
+build $sareportdir/src/resource/resource_infrared_obstacle_avoidance_sensor.o.xml: build_c_fast_sa src/resource/resource_infrared_obstacle_avoidance_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_infrared_obstacle_avoidance_sensor.o.txt: build_c_api ../src/resource/resource_infrared_obstacle_avoidance_sensor.c 
+build $coveragedir/src/resource/resource_infrared_obstacle_avoidance_sensor.o.cov: build_cov ../src/resource/resource_infrared_obstacle_avoidance_sensor.c 
+build src/resource/resource_led.o: build_c ../src/resource/resource_led.c 
+build src/resource/resource_led.o.ast: build_c_fast_ast ../src/resource/resource_led.c 
+build $sareportdir/src/resource/resource_led.o.xml: build_c_fast_sa src/resource/resource_led.o.ast || externalFnMap.txt
+build src/resource/resource_led.o.txt: build_c_api ../src/resource/resource_led.c 
+build $coveragedir/src/resource/resource_led.o.cov: build_cov ../src/resource/resource_led.c 
+build src/resource/resource_mcu90615.o: build_c ../src/resource/resource_mcu90615.c 
+build src/resource/resource_mcu90615.o.ast: build_c_fast_ast ../src/resource/resource_mcu90615.c 
+build $sareportdir/src/resource/resource_mcu90615.o.xml: build_c_fast_sa src/resource/resource_mcu90615.o.ast || externalFnMap.txt
+build src/resource/resource_mcu90615.o.txt: build_c_api ../src/resource/resource_mcu90615.c 
+build $coveragedir/src/resource/resource_mcu90615.o.cov: build_cov ../src/resource/resource_mcu90615.c 
+build src/resource/resource_motor_driver_L298N.o: build_c ../src/resource/resource_motor_driver_L298N.c 
+build src/resource/resource_motor_driver_L298N.o.ast: build_c_fast_ast ../src/resource/resource_motor_driver_L298N.c 
+build $sareportdir/src/resource/resource_motor_driver_L298N.o.xml: build_c_fast_sa src/resource/resource_motor_driver_L298N.o.ast || externalFnMap.txt
+build src/resource/resource_motor_driver_L298N.o.txt: build_c_api ../src/resource/resource_motor_driver_L298N.c 
+build $coveragedir/src/resource/resource_motor_driver_L298N.o.cov: build_cov ../src/resource/resource_motor_driver_L298N.c 
+build src/resource/resource_motor_s4306r.o: build_c ../src/resource/resource_motor_s4306r.c 
+build src/resource/resource_motor_s4306r.o.ast: build_c_fast_ast ../src/resource/resource_motor_s4306r.c 
+build $sareportdir/src/resource/resource_motor_s4306r.o.xml: build_c_fast_sa src/resource/resource_motor_s4306r.o.ast || externalFnMap.txt
+build src/resource/resource_motor_s4306r.o.txt: build_c_api ../src/resource/resource_motor_s4306r.c 
+build $coveragedir/src/resource/resource_motor_s4306r.o.cov: build_cov ../src/resource/resource_motor_s4306r.c 
+build src/resource/resource_rain_sensor.o: build_c ../src/resource/resource_rain_sensor.c 
+build src/resource/resource_rain_sensor.o.ast: build_c_fast_ast ../src/resource/resource_rain_sensor.c 
+build $sareportdir/src/resource/resource_rain_sensor.o.xml: build_c_fast_sa src/resource/resource_rain_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_rain_sensor.o.txt: build_c_api ../src/resource/resource_rain_sensor.c 
+build $coveragedir/src/resource/resource_rain_sensor.o.cov: build_cov ../src/resource/resource_rain_sensor.c 
+build src/resource/resource_relay.o: build_c ../src/resource/resource_relay.c 
+build src/resource/resource_relay.o.ast: build_c_fast_ast ../src/resource/resource_relay.c 
+build $sareportdir/src/resource/resource_relay.o.xml: build_c_fast_sa src/resource/resource_relay.o.ast || externalFnMap.txt
+build src/resource/resource_relay.o.txt: build_c_api ../src/resource/resource_relay.c 
+build $coveragedir/src/resource/resource_relay.o.cov: build_cov ../src/resource/resource_relay.c 
+build src/resource/resource_servo_motor.o: build_c ../src/resource/resource_servo_motor.c 
+build src/resource/resource_servo_motor.o.ast: build_c_fast_ast ../src/resource/resource_servo_motor.c 
+build $sareportdir/src/resource/resource_servo_motor.o.xml: build_c_fast_sa src/resource/resource_servo_motor.o.ast || externalFnMap.txt
+build src/resource/resource_servo_motor.o.txt: build_c_api ../src/resource/resource_servo_motor.c 
+build $coveragedir/src/resource/resource_servo_motor.o.cov: build_cov ../src/resource/resource_servo_motor.c 
+build src/resource/resource_sound_detection_sensor.o: build_c ../src/resource/resource_sound_detection_sensor.c 
+build src/resource/resource_sound_detection_sensor.o.ast: build_c_fast_ast ../src/resource/resource_sound_detection_sensor.c 
+build $sareportdir/src/resource/resource_sound_detection_sensor.o.xml: build_c_fast_sa src/resource/resource_sound_detection_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_sound_detection_sensor.o.txt: build_c_api ../src/resource/resource_sound_detection_sensor.c 
+build $coveragedir/src/resource/resource_sound_detection_sensor.o.cov: build_cov ../src/resource/resource_sound_detection_sensor.c 
+build src/resource/resource_sound_level_sensor.o: build_c ../src/resource/resource_sound_level_sensor.c 
+build src/resource/resource_sound_level_sensor.o.ast: build_c_fast_ast ../src/resource/resource_sound_level_sensor.c 
+build $sareportdir/src/resource/resource_sound_level_sensor.o.xml: build_c_fast_sa src/resource/resource_sound_level_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_sound_level_sensor.o.txt: build_c_api ../src/resource/resource_sound_level_sensor.c 
+build $coveragedir/src/resource/resource_sound_level_sensor.o.cov: build_cov ../src/resource/resource_sound_level_sensor.c 
+build src/resource/resource_tilt_sensor.o: build_c ../src/resource/resource_tilt_sensor.c 
+build src/resource/resource_tilt_sensor.o.ast: build_c_fast_ast ../src/resource/resource_tilt_sensor.c 
+build $sareportdir/src/resource/resource_tilt_sensor.o.xml: build_c_fast_sa src/resource/resource_tilt_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_tilt_sensor.o.txt: build_c_api ../src/resource/resource_tilt_sensor.c 
+build $coveragedir/src/resource/resource_tilt_sensor.o.cov: build_cov ../src/resource/resource_tilt_sensor.c 
+build src/resource/resource_touch_sensor.o: build_c ../src/resource/resource_touch_sensor.c 
+build src/resource/resource_touch_sensor.o.ast: build_c_fast_ast ../src/resource/resource_touch_sensor.c 
+build $sareportdir/src/resource/resource_touch_sensor.o.xml: build_c_fast_sa src/resource/resource_touch_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_touch_sensor.o.txt: build_c_api ../src/resource/resource_touch_sensor.c 
+build $coveragedir/src/resource/resource_touch_sensor.o.cov: build_cov ../src/resource/resource_touch_sensor.c 
+build src/resource/resource_ultrasonic_jsn_sr04t.o: build_c ../src/resource/resource_ultrasonic_jsn_sr04t.c 
+build src/resource/resource_ultrasonic_jsn_sr04t.o.ast: build_c_fast_ast ../src/resource/resource_ultrasonic_jsn_sr04t.c 
+build $sareportdir/src/resource/resource_ultrasonic_jsn_sr04t.o.xml: build_c_fast_sa src/resource/resource_ultrasonic_jsn_sr04t.o.ast || externalFnMap.txt
+build src/resource/resource_ultrasonic_jsn_sr04t.o.txt: build_c_api ../src/resource/resource_ultrasonic_jsn_sr04t.c 
+build $coveragedir/src/resource/resource_ultrasonic_jsn_sr04t.o.cov: build_cov ../src/resource/resource_ultrasonic_jsn_sr04t.c 
+build src/resource/resource_ultrasonic_sensor.o: build_c ../src/resource/resource_ultrasonic_sensor.c 
+build src/resource/resource_ultrasonic_sensor.o.ast: build_c_fast_ast ../src/resource/resource_ultrasonic_sensor.c 
+build $sareportdir/src/resource/resource_ultrasonic_sensor.o.xml: build_c_fast_sa src/resource/resource_ultrasonic_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_ultrasonic_sensor.o.txt: build_c_api ../src/resource/resource_ultrasonic_sensor.c 
+build $coveragedir/src/resource/resource_ultrasonic_sensor.o.cov: build_cov ../src/resource/resource_ultrasonic_sensor.c 
+build src/resource/resource_vibration_sensor.o: build_c ../src/resource/resource_vibration_sensor.c 
+build src/resource/resource_vibration_sensor.o.ast: build_c_fast_ast ../src/resource/resource_vibration_sensor.c 
+build $sareportdir/src/resource/resource_vibration_sensor.o.xml: build_c_fast_sa src/resource/resource_vibration_sensor.o.ast || externalFnMap.txt
+build src/resource/resource_vibration_sensor.o.txt: build_c_api ../src/resource/resource_vibration_sensor.c 
+build $coveragedir/src/resource/resource_vibration_sensor.o.cov: build_cov ../src/resource/resource_vibration_sensor.c 
